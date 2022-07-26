@@ -15,21 +15,17 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block">
-      <h2 class="block__heading">Heading</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore beatae
-        possimus nesciunt voluptatum et! Temporibus corrupti facere nam magnam
-        sint?
-      </p>
-    </section>
-    <section class="block block--dark block--skewed-right">
-      <h2 class="block__heading">Heading</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore beatae
-        possimus nesciunt voluptatum et! Temporibus corrupti facere nam magnam
-        sint?
-      </p>
-    </section>
+    <nav class="nav">
+      <a href="/"><img src="images/logo.svg" alt="logo" /></a>
+      <svg class="icon icon--white">
+        <use xlink:href="images/sprites.svg#menu"></use>
+      </svg>
+      <ul class="list">
+        <li><a href="#">Hosting</a></li>
+        <li><a href="#">VPS</a></li>
+        <li><a href="#">Domain</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
